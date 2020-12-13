@@ -1,0 +1,63 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+	font-family: 'RobotoCondensed', sans-serif;
+	font-weight:100;
+	/*#e84336;*/
+
+}
+
+a, h1, h2, h3, h4, h5, h6, button, select, option, .input-group, input, .input-group-text, textarea, .nav-link{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	
+}
+
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+ 	
+
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+
+@media (max-width:767px) and (min-width:576px){
+
+	
+
+
+}
+
+/*=============================================
+MOVIL VERTICAL (revisamos en 320px)
+=============================================*/
+
+@media (max-width:575px){
+
+	
+
+}

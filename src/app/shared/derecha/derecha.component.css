@@ -1,0 +1,74 @@
+/*=============================================
+PANTALLA DERECHA
+=============================================*/
+
+.pantallaDerecha {
+	position: fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:100%;		
+	transition: 1s left ease;
+	z-index:3;
+}
+
+.derecha {
+
+	opacity:0;
+	transition:0.5s all;
+
+}
+
+.pantallaDerecha .derecha img{
+	position:absolute; 
+	width:100px;
+	top:50px; 
+	left:-80px;
+
+}
+.pantallaDerecha .derecha a{
+	position:absolute; 
+	top:95px; 
+	left:-55px;
+	color:white;
+	text-transform: uppercase;
+	writing-mode: vertical-lr;
+	transform:rotate(172deg);
+	font-size:30px;
+}	
+
+
+.pantallaDerecha .grid-container{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.pantallaDerecha .grid-item{
+	position:relative;
+	height:50vh;
+	
+}
+
+.pantallaDerecha .grid-item:nth-child(1){
+	grid-column: 1 / span 3;
+	background-color:  #517bbd;
+	
+
+}
+
+.pantallaDerecha .grid-item:nth-child(2){
+	grid-column: 4 / span 3;
+	background-color:  #517bbd;
+	
+}
+
+.pantallaDerecha .grid-item:nth-child(3){
+	grid-column: 1 / span 3;
+	background-color:  #517bbd;
+}
+
+.pantallaDerecha .grid-item:nth-child(4){
+	grid-column: 4 / span 3;
+	background-color:  #517bbd;
+
+}

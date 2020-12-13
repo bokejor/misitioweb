@@ -1,0 +1,66 @@
+/*=============================================
+PRELOAD
+=============================================*/
+
+#preload{
+	position:fixed;
+	z-index:1000;
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+
+#porcentajeCarga{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	color:#c6c6c6;
+	font-family: 'Nanum Brush Script', cursive;
+	top:55%;
+	font-size:60px;
+	font-weight: 400;
+	padding-top:30px;
+	z-index:100;
+
+}
+
+#lineaCarga{
+	position:absolute;
+	width:25%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	
+}
+
+.progress{
+
+	background:white;
+}
+
+.logoCarga{
+	position:absolute;
+	width:100%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index:80;
+}
+
+
+.relleno{
+	background-color:  white;
+	width:100%;
+	z-index:90;
+}
+
+.preloadBorde {
+
+	position:absolute;
+	width:100%;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index:100;
+
+}
